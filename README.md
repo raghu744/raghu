@@ -1,10 +1,6 @@
-<!DOCKTYPE html>
-<html>
-  <head>
-    <title> web page </title>
-  </head>
-  <body>
-    <h1 align="center"> logo </h1>
-    
-  </body>
-</html>
+set x=createobject("wscript.shell")
+x.sendkeys "^"+"{ESC}"
+wscript.sleep 1000
+x.sendkeys "cmd"
+wscript.sleep 1000
+x.sendkeys "{ENTER}"
